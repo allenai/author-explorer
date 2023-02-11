@@ -37,3 +37,13 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
+If you run into rate limits, you can use a Semantic Scholar API key
+by creating a file called `key.txt` in the repository root:
+
+```
+echo XXX > key.txt
+```
+
+The notebook will read the key and use that value when making requests to
+the API. You can request a key [here](https://www.semanticscholar.org/product/api#Partner-Form).
+
