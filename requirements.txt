@@ -3,3 +3,6 @@ notebook==6.5.2
 pandas==1.5.3
 requests==2.28.2
 pretty-html-table==0.9.16
+matplotlib==3.6.3
+scikit-learn==1.2.1
+numpy==1.24.2
