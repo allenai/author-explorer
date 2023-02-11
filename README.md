@@ -30,22 +30,13 @@ Together we can do bigger, and better things.
 
 Here's to making AI more open.
 
-## Running the Notebook
+## Running the Code
 
-If you use `conda`:
+You can run the code like so:
 
 ```bash
 conda create -n author_explorer python=3.8
 conda activate author_explorer
-pip install -r requirements.txt
-jupyter notebook
-```
-
-You can use `venv` too:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 jupyter notebook
 ```
