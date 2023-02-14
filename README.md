@@ -3,25 +3,24 @@
 This repository contains code for using [Semantic Scholar Academic Graph API](https://www.semanticscholar.org/product/api)
 for exploring the relationships between authors and the papers they cite.
 
-We were inspired to do this when Twitter exploded about a [list of papers
+We were inspired to do this in response to a Twitter thread about a [list of papers
 Ilya Sutskever shared with John Carmack](https://twitter.com/xlr8harder/status/1621528198097047553).
-The excitement was enough to prompt a response from [John Carmack](https://twitter.com/ID_AA_Carmack/status/1622673143469858816),
-encouraging Sutskever to produce an updated list. That hasn't happened yet.
+The list remains a mystery. We thought it'd be fun to produce a list of our own and
+do some analysis on the way.
 
-We don't think a single person's view of AI could possibly contain "90%"
-of the field's diversity nor recent momentum. Yet we recognize that Ilya's list almost
-certainly gave John Carmack a head-start in a exploding field. So we figured
-we'd do our best to level the playing field, and give everyone access to a similar
-(and hopefully better) list of our own.
+It's important to stress that this is ultimately an exploratory exercise. AI, like
+most fields, is both growing fast and full of diverse perspectives and focus areas. 
+Trying to boil that ocean down into a single list of papers from a small set of authors is fraught. 
+Never the less we thought it'd be fun to take a look at some data, as to share the
+things our APIs and efforts might enable in an open, collaborative fashion.
 
-The list and code for producing it is available in a [Jupyter Notebook](./AuthorTopCitedPapers.ipynb)
-included in this repository. A portion of the data required for the code isn't
-yet available via Semantic Scholar's API (we're working on that). Which means for now
-the analysis can only be executed for authors included in [author_citations.json](./author_citations.json).
+The analysis is available in a [Jupyter Notebook](./AuthorTopCitedPapers.ipynb)
+included in this repository. It's worth noting that the code relies on data that
+isn't yet available via Semantic Scholar's API, which means you can't run this
+on a set of your own authors. We're working on fixing that, by expanding our API.
 
-Take a look and let us know what you think. We hope the list is useful, and
-that it might inspire others to do similar analyses using the API and data that
-Semantic Scholar makes openly available.
+We hope you find the data interesting and would love to hear your thoughts, or see
+additional analysis. Let us know what you come up with.
 
 Here's to making AI more open, and collaborative. We think it's more important now
 than ever to lay the ground work for that.
@@ -48,6 +47,9 @@ The notebook will read the key and use that value when making requests to
 the API. You can request a key [here](https://www.semanticscholar.org/product/api#Partner-Form).
 
 ## Launching with Binder
-The notebook can also be directly launched with [Binder](https://mybinder.org/) with all the interactive goodness!
+
+The notebook can also be directly launched with [Binder](https://mybinder.org/) 
+with all the interactive goodness. This makes the plots a lot easier to parser, in
+particular. Click the badge below to open the notebook using Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allenai/author-explorer/main?filepath=AuthorTopCitedPapers.ipynb)
