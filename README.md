@@ -47,3 +47,7 @@ echo XXX > key.txt
 The notebook will read the key and use that value when making requests to
 the API. You can request a key [here](https://www.semanticscholar.org/product/api#Partner-Form).
 
+## Launching with Binder
+The notebook can also be directly launched with [Binder](https://mybinder.org/) with all the interactive goodness!
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allenai/author-explorer/main?filepath=AuthorTopCitedPapers.ipynb)
