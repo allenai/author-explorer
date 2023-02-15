@@ -53,3 +53,16 @@ with all the interactive goodness. This makes the plots a lot easier to parser, 
 particular. Click the badge below to open the notebook using Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allenai/author-explorer/main?filepath=AuthorTopCitedPapers.ipynb)
+
+## Team
+
+This project was put together at the [Allen Institute for AI](https://allenai.org) by:
+
+- [Amanpreet Singh](https://www.semanticscholar.org/author/Amanpreet-Singh/2116287642)
+- [Sam Skjonsberg](https://www.semanticscholar.org/author/Sam-Skjonsberg/46181683)
+- [Doug Downey](https://www.semanticscholar.org/author/Doug-Downey/145612610)
+
+We couldn't have built it without the [Semantic Scholar API](https://www.semanticscholar.org/product/api)
+nor the hard work of the team behind it.
+
+
