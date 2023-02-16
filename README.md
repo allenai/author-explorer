@@ -33,9 +33,8 @@ than ever to lay the ground work for that.
 
 ## Related Work
 
-It turns out great minds (at the same organization) think alike! A group of
-folks at AI2 recently developed a system that uses a similar mechanism for
-staying up to date, called ComLittee:
+This work was inspired by recent, related work at AI2 that helps people discover
+papers based on the citations of people they know:
 
 ```
 @inproceedings{Kang2023ComLitteeLD,
