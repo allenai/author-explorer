@@ -8,6 +8,12 @@ Ilya Sutskever shared with John Carmack](https://twitter.com/xlr8harder/status/1
 The list remains a mystery. We thought it'd be fun to produce a list of our own and
 do some analysis on the way.
 
+So we set out to produce a rough estimate of the papers that might be on Ilya's
+list, by examining the papers he repeatedly tends to site. And we figured we'd go
+even further by pooling such lists across a set of accomplished AI scientists, hoping
+to produce a list that even more diverse and comprehensive. The resulting list
+we were able to produce is interesting. Let us know what you think!
+
 It's important to stress that this is ultimately an exploratory exercise. AI, like
 most fields, is both growing fast and full of diverse perspectives and focus areas. 
 Trying to boil that ocean down into a single list of papers from a small set of authors is fraught. 
@@ -24,6 +30,23 @@ additional analysis. Let us know what you come up with.
 
 Here's to making AI more open, and collaborative. We think it's more important now
 than ever to lay the ground work for that.
+
+## Related Work
+
+It turns out great minds (at the same organization) think alike! A group of
+folks at AI2 recently developed a system that uses a similar mechanism for
+staying up to date, called ComLittee:
+
+```
+@inproceedings{Kang2023ComLitteeLD,
+  title={ComLittee: Literature Discovery with Personal Elected Author Committees},
+  author={Hyeonsu B. Kang and Nouran Soliman and Matt Latzke and Joseph Chee Chang and Jonathan Bragg},
+  year={2023}
+}
+```
+
+You can read more about their approach [Semantic Scholar](https://www.semanticscholar.org/paper/ComLittee%3A-Literature-Discovery-with-Personal-Kang-Soliman/7f95d982f8ed3189d84577f1fdf07f93c99423f2) 
+or [ArXiv](https://arxiv.org/abs/2302.06780).
 
 ## Running the Code
 
